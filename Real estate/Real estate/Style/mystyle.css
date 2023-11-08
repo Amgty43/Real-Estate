@@ -1,0 +1,112 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-wrap:  end;
+}
+p{
+    line-height: 2;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+} 
+/*utilities*/
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+}
+/*header*/
+.site-header{
+    background-image: url(../images/img/header.jpg);
+    height: 100px;
+    align-items: center;
+}
+.site-header h1{
+    color: rgb(250, 248, 248);
+    align-items: end;
+}
+.site-header p{
+    color: rgb(249, 246, 246);
+    align-items:end;}
+.site-header a{
+    margin-right: 20;
+    align-items: end;
+}
+.description{
+    font-size: 2rem;
+}
+@media(max-width:768px){
+    .description{
+        display: none;
+    }
+}
+/*about us*/
+
+/*house*/
+
+.house-item{
+    background-color: gray;
+}
+.house-item{
+    background-color: #dedede
+}
+/*contact*/
+fieldset{
+    padding: 10px;
+}
+label{
+    display: block;
+}
+input,
+textarea{
+    display: block;
+    width: 98%;
+    background-color: #dedede;
+    border: none;
+    padding: 5px;
+    border: radius 5px;
+}
+/* footer */
+
+.site-footer{
+    background-image: url(../images/img/encuentra.jpg);
+    background-position: bottom bottom;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/*mobile view*/
+
+@media(max-width:760px) {
+    .flex-container{
+    display: none;}
+        flex-direction:: column;
+}
